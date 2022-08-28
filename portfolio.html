@@ -11,167 +11,208 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="nav">
-        <a class="logo" href="./index.html">Web<span class="logo-half">Studio</span> </a>
-        <ul class="list-header">
-          <li class="item-header-main">
-            <a class="link-header" href="./index.html">Студія</a>
-          </li>
-          <li class="item-header"><a class="current" href="./portfolio.html">Портфоліо</a></li>
-          <li class="item-header"><a class="link-header" href="">Контакти</a></li>
-        </ul>
-      </nav>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li class="nav-item"><a class="nav-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      <section>
+        <h2 class="visually-hidden">Навігація</h2>
+        <div class="container header-container">
+          <a class="logo" href="./index.html">Web<span class="logo-half">Studio</span> </a>
+          <nav class="nav">
+            <ul class="list-header">
+              <li class="item-header-main">
+                <a class="link-header" href="./index.html">Студія</a>
+              </li>
+              <li class="item-header">
+                <a class="current" href="./portfolio.html">Портфоліо</a>
+              </li>
+              <li class="item-header"><a class="link-header" href="">Контакти</a></li>
+            </ul>
+          </nav>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </header>
     <main>
       <!---section-button-nav-main-->
       <section class="btn">
-        <h1 class="visually-hidden">Навігація</h1>
-        <ul class="btn-list">
-          <li class="btn-item"><button class="btn-button" type="button">Усі</button></li>
-          <li class="btn-item"><button class="btn-button" type="button">Веб-сайти</button></li>
-          <li class="btn-item"><button class="btn-button" type="button">Додатки</button></li>
-          <li class="btn-item"><button class="btn-button" type="button">Дизайн</button></li>
-          <li class="btn-item"><button class="btn-button" type="button">Маркетинг</button></li>
-        </ul>
-        <!--section imgs-->
-        <ul>
-          <li class="section-list">
-            <img
-              class="section-img"
-              src="./images/portfolio/main/section-images/img-1.jpg"
-              alt="Технокряк"
-              width="370"
-              height="300"
-            />
-            <h2 class="section-subject">Технокряк</h2>
-            <p class="section-desc">Веб-сайт</p>
-          </li>
-          <li class="section-list">
-            <img
-              class="section-img"
-              src="./images/portfolio/main/section-images/img-2.jpg"
-              alt="Постер New Orlean vs Golden Star"
-              width="370"
-              height="300"
-            />
-            <h2 class="section-subject">Постер New Orlean vs Golden Star</h2>
-            <p class="section-desc">Дизайн</p>
-          </li>
-          <li class="section-list">
-            <img
-              class="section-img"
-              src="./images/portfolio/main/section-images/img-3.jpg"
-              alt="Ресторан Seafood"
-              width="370"
-              height="300"
-            />
-            <h2 class="section-subject">Ресторан Seafood</h2>
-            <p class="section-desc">Додаток</p>
-          </li>
-          <li class="section-list">
-            <img
-              class="section-img"
-              src="./images/portfolio/main/section-images/img-4.jpg"
-              alt="Проєкт Prime"
-              width="370"
-              height="300"
-            />
-            <h2 class="section-subject">Проєкт Prime</h2>
-            <p class="section-desc">Маркетинг</p>
-          </li>
-          <li class="section-list">
-            <img
-              class="section-img"
-              src="./images/portfolio/main/section-images/img-5.jpg"
-              alt="Проєкт Boxes"
-              width="370"
-              height="300"
-            />
-            <h2 class="section-subject">Проєкт Boxes</h2>
-            <p class="section-desc">Додаток</p>
-          </li>
-          <li class="section-list">
-            <img
-              class="section-img"
-              src="./images/portfolio/main/section-images/img-6.jpg"
-              alt="Inspiration has no Borders"
-              width="370"
-              height="300"
-            />
-            <h2 class="section-subject">Inspiration has no Borders</h2>
-            <p class="section-desc">Веб-сайт</p>
-          </li>
-          <li class="section-list">
-            <img
-              class="section-img"
-              src="./images/portfolio/main/section-images/img-7.jpg"
-              alt="Видання Limited Edition"
-              width="370"
-              height="300"
-            />
-            <h2 class="section-subject">Видання Limited Edition</h2>
-            <p class="section-desc">Дизайн</p>
-          </li>
-          <li class="section-list">
-            <img
-              class="section-img"
-              src="./images/portfolio/main/section-images/img-8.jpg"
-              alt="Проєкт LAB"
-              width="370"
-              height="300"
-            />
-            <h2 class="section-subject">Проєкт LAB</h2>
-            <p class="section-desc">Маркетинг</p>
-          </li>
-          <li class="section-list">
-            <img
-              class="section-img"
-              src="./images/portfolio/main/section-images/img-9.jpg"
-              alt="Growing Business"
-              width="370"
-              height="300"
-            />
-            <h2 class="section-subject">Growing Business</h2>
-            <p class="section-desc">Додаток</p>
-          </li>
-        </ul>
+        <div class="container table-container">
+          <ul class="btn-list">
+            <li class="btn-item"><button class="btn-button" type="button">Усі</button></li>
+            <li class="btn-item"><button class="btn-button" type="button">Веб-сайти</button></li>
+            <li class="btn-item"><button class="btn-button" type="button">Додатки</button></li>
+            <li class="btn-item"><button class="btn-button" type="button">Дизайн</button></li>
+            <li class="btn-item"><button class="btn-button" type="button">Маркетинг</button></li>
+          </ul>
+
+          <!--section imgs-->
+
+          <ul class="img-section-list">
+            <li class="section-list">
+              <img
+                class="section-img"
+                src="./images/portfolio/main/section-images/img-1.jpg"
+                alt="Технокряк"
+                width="370"
+                height="300"
+              />
+              <div class="box-img">
+                <h2 class="section-subject">Технокряк</h2>
+                <p class="section-desc">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="section-list">
+              <img
+                class="section-img"
+                src="./images/portfolio/main/section-images/img-2.jpg"
+                alt="Постер New Orlean vs Golden Star"
+                width="370"
+                height="300"
+              />
+              <div class="box-img">
+                <h2 class="section-subject">Постер New Orlean vs Golden Star</h2>
+                <p class="section-desc">Дизайн</p>
+              </div>
+            </li>
+            <li class="section-list">
+              <img
+                class="section-img"
+                src="./images/portfolio/main/section-images/img-3.jpg"
+                alt="Ресторан Seafood"
+                width="370"
+                height="300"
+              />
+              <div class="box-img">
+                <h2 class="section-subject">Ресторан Seafood</h2>
+                <p class="section-desc">Додаток</p>
+              </div>
+            </li>
+            <li class="section-list">
+              <img
+                class="section-img"
+                src="./images/portfolio/main/section-images/img-4.jpg"
+                alt="Проєкт Prime"
+                width="370"
+                height="300"
+              />
+              <div class="box-img">
+                <h2 class="section-subject">Проєкт Prime</h2>
+                <p class="section-desc">Маркетинг</p>
+              </div>
+            </li>
+            <li class="section-list">
+              <img
+                class="section-img"
+                src="./images/portfolio/main/section-images/img-5.jpg"
+                alt="Проєкт Boxes"
+                width="370"
+                height="300"
+              />
+              <div class="box-img">
+                <h2 class="section-subject">Проєкт Boxes</h2>
+                <p class="section-desc">Додаток</p>
+              </div>
+            </li>
+            <li class="section-list">
+              <img
+                class="section-img"
+                src="./images/portfolio/main/section-images/img-6.jpg"
+                alt="Inspiration has no Borders"
+                width="370"
+                height="300"
+              />
+              <div class="box-img">
+                <h2 class="section-subject">Inspiration has no Borders</h2>
+                <p class="section-desc">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="section-list">
+              <img
+                class="section-img"
+                src="./images/portfolio/main/section-images/img-7.jpg"
+                alt="Видання Limited Edition"
+                width="370"
+                height="300"
+              />
+              <div class="box-img">
+                <h2 class="section-subject">Видання Limited Edition</h2>
+                <p class="section-desc">Дизайн</p>
+              </div>
+            </li>
+            <li class="section-list">
+              <img
+                class="section-img"
+                src="./images/portfolio/main/section-images/img-8.jpg"
+                alt="Проєкт LAB"
+                width="370"
+                height="300"
+              />
+              <div class="box-img">
+                <h2 class="section-subject">Проєкт LAB</h2>
+                <p class="section-desc">Маркетинг</p>
+              </div>
+            </li>
+            <li class="section-list">
+              <img
+                class="section-img"
+                src="./images/portfolio/main/section-images/img-9.jpg"
+                alt="Growing Business"
+                width="370"
+                height="300"
+              />
+              <div class="box-img">
+                <h2 class="section-subject">Growing Business</h2>
+                <p class="section-desc">Додаток</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <a class="logo-footer" href="./index.html"
-        >Web<span class="logo-half-footer">Studio</span>
-      </a>
-      <address class="adress">
-        <ul class="adress-list">
-          <li class="adress-item">
-            <a
-              class="address-map"
-              href="https://goo.gl/maps/4gL3Jrbb5bLPBRH38"
-              target="_blank"
-              rel="noopener noreferer nofollow"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
-          </li>
+      <div class="container footer-container">
+        <a class="logo-footer" href="./index.html"
+          >Web<span class="logo-half-footer">Studio</span>
+        </a>
+        <address class="adress">
+          <ul class="adress-list">
+            <li class="adress-item">
+              <a
+                class="address-map"
+                href="https://goo.gl/maps/4gL3Jrbb5bLPBRH38"
+                target="_blank"
+                rel="noopener noreferer nofollow"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
 
-          <li class="address-item">
-            <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="address-link">
-            <a class="address-link" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+            <li class="adress-item">
+              <a class="address-link address-mail" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="address-item">
+              <a class="address-link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
